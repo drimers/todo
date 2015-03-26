@@ -246,7 +246,7 @@ function listTasks() {
 }
 
 function dbConnect() {
-    $connection = mysql_connect('localhost', 'root', 'Kr0k0dil123') or 
+    $connection = mysql_connect('localhost', 'root', 'pass') or 
             die('Error while connecting to the database!');
     mysql_select_db('todo', $connection) or die('Fail to select DB!');
     
@@ -282,7 +282,7 @@ function processRequest() {
 }
 
 function mysqlTest() {    
-    $connection = mysql_connect('localhost', 'root', 'Kr0k0dil123');
+    $connection = mysql_connect('localhost', 'root', 'pass');
     if ($connection == false) {
         echo 'Error while connecting to the database!';
         exit;
