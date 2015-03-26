@@ -104,7 +104,7 @@ jQuery(document).ready(function(){
         //console.log(element + ": " + element);
         //console.log($(this).html());
         //console.log($(this).text());
-        
+        //test git
         
         }).fail(function(response){
             console.log('fail');
