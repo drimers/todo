@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border: 1px solid red;
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.top {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    background: #ccc
+}
+
+.date {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.menu {
+    position: absolute;
+    bottom: 0px;
+    width: 1160px;
+    padding: 20px;
+    background: #999;
+}
+
+.menu ul li {
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.greeting {
+    float: right;
+}
+
+.name {
+    color: red;
+    font-weight: bold;
+}
+
+.txt {
+    color: blue;
+    font-weight: bold;
+}
