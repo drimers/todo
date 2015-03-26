@@ -105,6 +105,7 @@ jQuery(document).ready(function(){
         //console.log($(this).html());
         //console.log($(this).text());
         
+        
         }).fail(function(response){
             console.log('fail');
          console.log(response);
